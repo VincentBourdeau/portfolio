@@ -64,16 +64,19 @@
               </h4>
             </li>
             <li>
-              <h3 class="medium-title">PWA/Website :: This very own Portfolio</h3>
+              <h3 class="medium-title">PWA/Website :: My Portfolio project</h3>
               <p class="regular-text">I decided to open-source my Portfolio so that I can show/teach others. My Portfolio will always be Playground and a work in progress, and we will build features together!</p>
 
-              <a class="main-link" href="https://github.com/VincentBourdeau/rpsls-pwa" target="_blank" rel="noopener noreferer">https://github.com/VincentBourdeau/rpsls-pwa</a>
+              <a class="main-link" href="https://github.com/VincentBourdeau/portfolio" target="_blank" rel="noopener noreferer">https://github.com/VincentBourdeau/portfolio</a>
               <h4 class="regular-title">
                 <span class="tag">PWA</span>
                 <span class="tag">Website</span>
+                <span class="tag">Webperf</span>
+                <span class="tag">Exemple</span>
                 <span class="tag">Offline</span>
                 <span class="tag">Service-worker</span>
                 <span class="tag">VueJs</span>
+                <span class="tag">Firebase</span>
               </h4>
             </li>
           </ul>
