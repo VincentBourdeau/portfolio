@@ -10,12 +10,6 @@ Thanks for checking out this project!
 
 <br />
 
-## Website
-
-:point_right: [https://vincentbourdeau.com/)
-
-<br />
-
 **Lighthouse score :**
 
 ![Lighthouse score](https://vincentbourdeau.com/img/webperf-to-the-core.cf0ed70b.png)
