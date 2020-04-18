@@ -4,6 +4,22 @@
 
 Thanks for checking out this project!
 
+## Website
+
+:point_right: [https://vincentbourdeau.com/)
+
+<br />
+
+## Website
+
+:point_right: [https://vincentbourdeau.com/)
+
+<br />
+
+**Lighthouse score :**
+
+![Lighthouse score](https://vincentbourdeau.com/img/webperf-to-the-core.cf0ed70b.png)
+
 ## Built With
 
 <h1 align="center">bento-starter</h1>
@@ -16,18 +32,6 @@ Thanks for checking out this project!
 <br />
 
 > :bento: **bento-starter** is an Open-Source Full-Stack solution that helps you to build fast and maintainable web applications using tools like Vue.js, Firebase, Progressive Web Apps support, dynamic offline support... The goal of this project is to provide a powerful and well configured stack (with CI/CD, hosting...) so you can focus on writing your web application very quickly.
-
-> As this project is a template project and not a CLI, you have access to the entire app configuration so you can change it according to your needs.
-
-## Website
-
-:point_right: [https://vincentbourdeau.com/)
-
-<br />
-
-**Lighthouse score :**
-
-![Lighthouse score](https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fvincentbourdeau.com%2F&tab=desktop)
 
 **The stack is made up of :**
 
