@@ -1,0 +1,20 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+
+    function authenticated() { return request.auth.uid != null }
+
+    match /contacts/{contactId} {
+      allow create: if true;
+    }
+
+    match /vb_contacts/{contactId} {
+      allow create: if true;
+    }
+
+    match /{document=**} {
+      allow read: if true;
+      allow write: if authenticated();
+    }
+  }
+}

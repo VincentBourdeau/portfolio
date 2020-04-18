@@ -1,0 +1,41 @@
+
+// Fonts
+@font-face {
+  font-family: 'Tiempos Headline Bold';
+  font-style: normal;
+  font-weight: normal;
+  src: local('/fonts/Tiempos Headline Bold'), url('/fonts/TiemposHeadline-Bold.woff') format('woff');
+}
+
+$font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+$font-family-regular: 'Tiempos Headline Bold', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+$font-family-heavy: 'Tiempos Headline Bold', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+      Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+
+$font-weight-light: 300;
+$font-weight-regular: 400;
+$font-weight-bold: 500;
+$font-weight-heavy: 700;
+$font-height: 1.5;
+
+// Colors
+$accent-color: #0066fb;
+$accent2-color: #fdc526;
+$dark-grey: #1e394c;
+$light-grey: #637382;
+$light-read: #637382;
+
+$dark-gray: #1e394c; // for the Americans
+$light-gray: #637382; // for the Americans
+
+$danger-color: #ea4d46;
+
+// Grid
+
+$width: 96%;
+$gutter: 4%;
+$breakpoint-small: 599px; // 540px
+$breakpoint-med: 720px; // 720px
+$breakpoint-large: 960px; // 960px
