@@ -64,7 +64,7 @@
               </h4>
             </li>
             <li>
-              <h3 class="medium-title">PWA/Website :: My Portfolio project</h3>
+              <h3 class="medium-title">💼 PWA/Website :: My Portfolio project</h3>
               <p class="regular-text">I decided to open-source my Portfolio so that I can show/teach others. My Portfolio will always be Playground and a work in progress, and we will build features together!</p>
 
               <a class="main-link" href="https://github.com/VincentBourdeau/portfolio" target="_blank" rel="noopener noreferer">https://github.com/VincentBourdeau/portfolio</a>
@@ -129,7 +129,7 @@ export default {
   head() {
     return {
       title: {
-        inner: 'Modern Web Expert | Development, Consulting & Design'
+        inner: 'WebApps + Websites developer | Projects'
       },
       meta: [
         // Global Metas OG
