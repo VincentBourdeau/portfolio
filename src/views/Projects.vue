@@ -1,11 +1,11 @@
 <template>
-  <div class="full-page-wrapper is-white">
+  <div class="full-page-wrapper is-white" data-scroll-container>
 
     <!-- Nav -->
     <nav-bar class="container is-full" />
 
     <!-- Client Projects -->
-    <section class="container articles-wrapper">
+    <section class="container articles-wrapper"  data-scroll data-scroll-speed="0.50">
       <div class="row">
         <article class="col-12">
           <h2 class="big-title">Client projects</h2>
@@ -39,7 +39,7 @@
     </section>
 
     <!-- Client Projects -->
-    <section class="container articles-wrapper">
+    <section class="container articles-wrapper"  data-scroll data-scroll-speed="1">
       <div class="row">
         <article class="col-12">
           <h2 class="big-title">Open Source projects</h2>
@@ -85,7 +85,7 @@
     </section>
 
     <!-- Contributions -->
-    <section class="container articles-wrapper">
+    <section class="container articles-wrapper"  data-scroll data-scroll-speed="1.55">
       <div class="row">
         <article class="col-12">
           <h2 class="big-title">Contributions</h2>
@@ -124,6 +124,8 @@
 import { mapState } from 'vuex'
 import NavBar from '@/components/NavBar'
 import Footer from '@/components/Footer'
+
+import LocomotiveScroll from 'locomotive-scroll'
 
 export default {
   head() {
@@ -168,7 +170,17 @@ export default {
     }
   },
   components: { NavBar, Footer },
-  computed: mapState('app', ['appTitle'])
+  computed: mapState('app', ['appTitle']),
+  mounted() {
+    setTimeout(() => {
+      const scroll = new LocomotiveScroll({
+        el: document.querySelector('[data-scroll-container]'),
+        smooth: true
+      })
+
+      console.log(scroll)
+    }, 500)
+  }
 }
 </script>
 
