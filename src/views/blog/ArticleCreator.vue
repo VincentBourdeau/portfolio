@@ -7,7 +7,7 @@
     <!-- Hero -->
     <section class="outer-container">
       <div class="hero-img-wrapper">
-        <img class="hero-img" src="https://images.unsplash.com/photo-1472740378865-80aab8e73251?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1650&q=80" alt="Choices">
+        <img class="hero-img" src="https://images.unsplash.com/photo-1468495244123-6c6c332eeece?ixlib=rb-1.2.1&auto=format&fit=crop&w=1222&q=80" alt="Choices">
       </div>
     </section>
 
@@ -17,7 +17,13 @@
         <article class="col-12 article-content">
           <h1 class="big-title">From Team Lead to Digital Nomad :: Taking my biggest decision yet.</h1>
 
-          <h2 class="regular-title"><div class="tag">Digital Nomad</div> <div class="tag">Career</div> <div class="tag">Goals</div> <div class="tag">Dreams</div></h2>
+          <h2 class="regular-title">
+            <div class="tag">Digital Nomad</div>
+            <div class="tag">Career</div>
+            <div class="tag">Goals</div>
+            <div class="tag">Dreams</div>
+            <div class="tag">Passion</div>
+          </h2>
 
           <p class="regular-text">January 2020 : 30 y/o Web developper. I was starting my 4th year in a Montréal, Qc, Web Agency - <a href="#">byhoffman.com</a> and my 2nd year as the Director Of Technology. I was in charge of the R&D and P.O.C. I was leading a team of 4 developpers and in charge of their personal growth "Roadmap". I was living the dream. But yet, something was missing.</p>
 
@@ -74,6 +80,111 @@
       </div>
     </div> -->
 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <!-- Hero -->
+    <section class="outer-container">
+      <div class="hero-img-wrapper">
+        <img class="hero-img" src="https://images.unsplash.com/photo-1423784346385-c1d4dac9893a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Progressive Web App versus Native App">
+      </div>
+    </section>
+
+    <!-- Article content -->
+    <section class="container article-wrapper">
+      <div class="row">
+        <article class="col-12 article-content">
+          <h1 class="big-title">Progressive Web App versus Native App</h1>
+
+          <h2 class="regular-title">
+            <div class="tag">PWA</div>
+            <div class="tag">Web application</div>
+            <div class="tag">Technology</div>
+            <div class="tag">Development</div>
+          </h2>
+
+          <h4 class="medium-title">What is a PWA ?</h4>
+
+          <p class="regular-text">Progressive Web Apps are a great alternative to Native App developement. They can (most of the time) provide the same result in terms of functionalities and performance. They are essentially an 'Enchance' version of a Website.<p>
+
+          <p class="regular-text">Simillar to a Native App, a PWA can be installed on the user's device to be easely accessed. On top of that, they have some extra capabilities in terms of things they can access/perform.</p>
+
+          <h4 class="medium-title">What Can a PWA do more that an Website ?</h4>
+
+          <img class="article-img" src="https://images.unsplash.com/photo-1531730194970-f4d4bfd6475d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1353&q=80" alt="What Can a PWA do more that an Website ?">
+
+          <p class="regular-text">Having a Progressive Web App, you can have access to advance Web functionalities such as Working Offline, Push Notifications and some hardware access that you can't have normally. (camera, GPS, microphone, user's contact list, and more)</p>
+
+          <h4 class="medium-title">What are the benefits of PWAs</h4>
+
+          <img class="article-img" src="https://images.unsplash.com/photo-1459257831348-f0cdd359235f?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="What are the benefits of PWAs">
+
+          <p class="regular-text">The biggest benefit is by far the ease of Installation and Update. When building a Native App, you have to take in consideration the specific platforms it will target whereas with a PWA, you can build ONCE and publish anywhere.</p>
+
+          <p class="regular-text">In fact, with 1 Progressive Web App, and a good responsive layout, you can launch a working project on a Desktop, an iPad, any Mobile device and even something larger like a Smart TV. And the cherry on top of the cake is that, if you want to make any update, be it a text, feature or layout update, you just have to deploy it one and EVERYONE will automatically have access to it WIHTOUT the need to manually update it. It will take less time for developpers to develop and will cost you less money.</p>
+
+          <p class="regular-text">To be PWA compliant, you need to adheer to certain standard. Such as <a href="#">Web performances</a>. A Progressive Web app is by defenition a Website that is Fast, light and secure.</p>
+
+          <p class="regular-text">If the apps stores precense is important for you, it is still possible. Althoug you won't need access to any Store (App Store / Google play store) to prompt a user for the installation, you will still be able to publish a 'Native' wrapper (which in terms is just a webview of you app) to any store you want.</p>
+
+          <h4 class="medium-title">Use case</h4>
+
+          <p class="regular-text">With all those benefits, it is fair to say that PWAs are a perfect candidate to <a href="#">build any MVP</a> of any product. If you want to test the market wuthout investing too much money, you solution is definitely met with a Progressive Web App. It will require less time for developper to create than a native app.</p>
+
+          <blockquote>
+            <p class="regular-text">For any huge and hard to maintain Excel sheet out there, ...there is a use case for a PWA</p>
+          </blockquote>
+
+          <img class="article-img" src="https://images.unsplash.com/photo-1529078155058-5d716f45d604?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1349&q=80" alt="Excel (.xlsx) sheet with some calculations">
+
+          <p class="regular-text">If you have any process in your campany that you feel could be automated and made easier, there is definitly a fit and PWA can help you make your life easier. That process could be an Excel (.xlsx) sheet with some calculations that you need to manually maintain or any manual process that could be organise and automated with a User friendly user interce and lot of quickly accessible Stats to keep track of everything... Thoses are the best use case for a PWA.</p>
+
+          <p class="regular-text">If you find yourself searching High and Low for a service or a 'Ready-made' paltform to take care of your needs but can't really find anyrhing perfect (either doing less or too much of what you ask), a custom progressive Web app tailored to your needs could be a perfect fit.</p>
+
+          <aside>
+            <h4 class="medium-title">Real world exemple and success stories</h4>
+
+            <ul class="regular-list">
+              <li>Tinder has <a href="https://medium.com/@addyosmani/a-tinder-progressive-web-app-performance-case-study-78919d98ece0" target="_blank" rel="noopened noreferer">reduced page loading time from 11.9 to 4.69 seconds</a>. The Tinder’s progressive app is 90% “lighter” than its native app.</li>
+              <li>Uber PWA takes almost nothing in memory and <a href="https://eng.uber.com/m-uber/" target="_blank" rel="noopened noreferer">loads in 3 seconds even via a 2G Internet connection</a>.</li>
+              <li>Forbes has <a href="https://digiday.com/media/new-mobile-site-forbes-boosted-impressions-per-session-10-percent/" target="_blank" rel="noopened noreferer">decreased page loading time from 6.5 (for its previous site) to 2.5 seconds and increased the first users’ impressions by 10%</a>.</li>
+            </ul>
+
+            <p class="regular-text">Those are just a small portion of the big companies that used the power of PWAs to acheive their goals.</p>
+
+          </aside>
+
+          <h4 class="medium-title">In conclusion</h4>
+
+          <p class="regular-text">You should definitly take in consideration a Progressive Web App over a Native app. Most of the time, it will do 90% of what you want and will make sure there is a market before building the full fledge application.</p>
+
+          <p class="regular-text">It can also, onits own, be exactly what you need in terms of custom SASS and will cost you way less than a Native app.</p>
+
+          <p class="regular-text">If you want to know more about PWA ro are interested in building one, feel free to <a href="#" @click.prevent="openContactForm">contact me</a>.</p>
+        </article>
+      </div>
+    </section>
+
     <Footer />
   </div>
 </template>
@@ -126,12 +237,17 @@ export default {
     }
   },
   components: { NavBar, Footer },
-  computed: mapState('app', ['appTitle'])
+  computed: mapState('app', ['appTitle']),
+  methods: {
+    openContactForm() {
+      this.$eventHub.$emit('open-contact-form')
+    }
+  }
 }
 </script>
 
 <style lang="scss" scoped>
-@import '@/theme/app-global.scss';
+@import '@/theme/variables.scss';
 
 .full-page-wrapper {
   position: relative;
@@ -161,13 +277,25 @@ export default {
   .hero-img-wrapper {
     position: relative;
     width: 100%;
+    height: 30vw;
     min-height: 250px;
-    max-height: 30vw;
+    max-height: 600px;
     overflow: hidden;
+
+    img {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      transform: translate(0, -50%);
+      display: block;
+      width: 100%;
+    }
   }
 }
 
 .article-wrapper {
+  position: relative;
+  z-index: 3;
   min-height: 100vh;
   padding: 1rem 1rem;
   background: #fff;
@@ -182,6 +310,10 @@ export default {
   }
 
   // Article Typography + Blocks components
+
+  p a {
+    color: $accent-color;
+  }
 
   .big-title {
     font-family: $font-family-regular;
@@ -259,6 +391,10 @@ export default {
     span {
       color: $light-read;
     }
+
+    a {
+      color: $accent-color;
+    }
   }
 
   p,
@@ -284,6 +420,10 @@ export default {
     span {
       color: $light-grey;
     }
+
+    a {
+      color: $accent-color;
+    }
   }
 
   ul,
@@ -306,6 +446,10 @@ export default {
 
     li {
       padding: 0.5rem 0;
+
+      a {
+        color: $accent-color;
+      }
     }
 
     strong {
@@ -346,6 +490,10 @@ export default {
         height: 2px;
         margin-bottom: 1.8rem;
         width: 60px;
+      }
+
+      a {
+        color: $accent-color;
       }
     }
   }

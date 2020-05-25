@@ -11,7 +11,7 @@
           <article class="col-12">
             <h2 class="small-title">Digital&nbsp;Nomad&nbsp;👨‍💻&nbsp;Freelancer</h2>
             <h1 class="big-title">Web Apps & Websites Developer</h1>
-            <p class="regular-text">With more than 10 years in Web developement, I can safely say that my work is a passion. <br> My creations are 100% customs, accessibles, performants & scalables 🚀</p>
+            <p class="regular-text">With more than 10 years in Web developement, I can safely say that my work is a passion. <br> My creations are 100% custom, accessible, performant & scalable 🚀</p>
             <img
               class="hero-illustration"
               src="@/assets/img/digital-nomad-illustration.svg"
@@ -89,7 +89,8 @@
           <div class="featured-content">
             <h2>Best Practices & High-performance</h2>
             <p>Because Web performance really matters, all of my creations are tested before going live. I never settle down for something less than 90% on all metrics. <strong class="accent1">Performance</strong> &bull; <strong class="accent2">Accessibility</strong> &bull; <strong class="accent1">Best Practices</strong> &bull; <strong class="accent2">SEO</strong> &bull; <strong class="accent1">Progressive Web App</strong></p>
-            <a href="https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fvincentbourdeau.com%2F&tab=desktop" target="_blank" title="WebPerf test" class="text-link is-alternate">Test my site <svg width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M508.875 248.458l-160-160c-4.167-4.167-10.917-4.167-15.083 0-4.167 4.167-4.167 10.917 0 15.083l141.792 141.792H10.667C4.771 245.333 0 250.104 0 256s4.771 10.667 10.667 10.667h464.917L333.792 408.458c-4.167 4.167-4.167 10.917 0 15.083a10.634 10.634 0 0 0 7.542 3.125c2.729 0 5.458-1.042 7.542-3.125l160-160c4.166-4.166 4.166-10.916-.001-15.083z"/></svg></a>
+            <a href="https://developers.google.com/speed/pagespeed/insights/?url=https%3A%2F%2Fvincentbourdeau.com%2F&tab=desktop" target="_blank" title="WebPerf test" class="text-link is-alternate">Test my site on Google Page Speed<svg width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M508.875 248.458l-160-160c-4.167-4.167-10.917-4.167-15.083 0-4.167 4.167-4.167 10.917 0 15.083l141.792 141.792H10.667C4.771 245.333 0 250.104 0 256s4.771 10.667 10.667 10.667h464.917L333.792 408.458c-4.167 4.167-4.167 10.917 0 15.083a10.634 10.634 0 0 0 7.542 3.125c2.729 0 5.458-1.042 7.542-3.125l160-160c4.166-4.166 4.166-10.916-.001-15.083z"/></svg></a>
+            <a href="https://gtmetrix.com/reports/vincentbourdeau.com/2hD2LB7K" target="_blank" title="WebPerf test" class="text-link is-alternate">Test my site on GTMetrix<svg width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M508.875 248.458l-160-160c-4.167-4.167-10.917-4.167-15.083 0-4.167 4.167-4.167 10.917 0 15.083l141.792 141.792H10.667C4.771 245.333 0 250.104 0 256s4.771 10.667 10.667 10.667h464.917L333.792 408.458c-4.167 4.167-4.167 10.917 0 15.083a10.634 10.634 0 0 0 7.542 3.125c2.729 0 5.458-1.042 7.542-3.125l160-160c4.166-4.166 4.166-10.916-.001-15.083z"/></svg></a>
           </div>
         </article>
       </div>
@@ -128,7 +129,7 @@ export default {
           name: 'description',
           content: `${
             this.appTitle
-          } With more than 10 years in Web developement, I can safely say that my work is a passion. My creations are 100% customs, accessibles, performants & scalables 🚀`,
+          } With more than 10 years in Web developement, I can safely say that my work is a passion. My creations are 100% custom, accessible, performant & scalable 🚀`,
           id: 'desc'
         },
         // Twitter OG
@@ -137,7 +138,7 @@ export default {
           n: 'twitter:description',
           c: `${
             this.appTitle
-          } With more than 10 years in Web developement, I can safely say that my work is a passion. My creations are 100% customs, accessibles, performants & scalables 🚀`
+          } With more than 10 years in Web developement, I can safely say that my work is a passion. My creations are 100% custom, accessible, performant & scalable 🚀`
         },
         // Facebook / Open Graph
         { property: 'og:title', content: `${this.appTitle}` },
@@ -146,7 +147,7 @@ export default {
           property: 'og:description',
           content: `${
             this.appTitle
-          } With more than 10 years in Web developement, I can safely say that my work is a passion. My creations are 100% customs, accessibles, performants & scalables 🚀`
+          } With more than 10 years in Web developement, I can safely say that my work is a passion. My creations are 100% custom, accessible, performant & scalable 🚀`
         },
         // Og Image
         {

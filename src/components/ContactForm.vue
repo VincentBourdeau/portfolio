@@ -8,6 +8,7 @@
     :pivotY="1"
   >
     <h2>Have a Question? <small>Have an idea for a great project?</small></h2>
+    <a class="tag" href="mailto:dev@vincentbourdeau.com" title="mail">dev@vincentbourdeau.com</a>
 
     <form
       autocomplete="off"
@@ -213,6 +214,14 @@ export default {
       font-size: 1.75rem;
       font-weight: 400;
     }
+  }
+
+  .tag {
+    display: block;
+    margin: 15px auto;
+    width: 200px;
+    position: relative;
+    z-index: 5;
   }
 
   form {

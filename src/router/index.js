@@ -51,6 +51,17 @@ const router = new Router({
       }
     },
     {
+      path: '/article',
+      name: 'article',
+      component: () =>
+        import(
+          /* webpackChunkName: "client-chunk-article" */ '@/views/blog/ArticleCreator.vue'
+        ),
+      meta: {
+        authNotRequired: true
+      }
+    },
+    {
       path: '/check-login',
       name: 'check-login',
       component: CheckLogin,
