@@ -1,11 +1,11 @@
 <template>
-  <div class="full-page-wrapper">
+  <div class="full-page-wrapper" data-scroll-container >
 
     <!-- Nav -->
-    <nav-bar class="container is-full" />
+    <nav-bar class="container is-full" data-scroll />
 
     <!-- Hero -->
-    <div class="bg-effect">
+    <div class="bg-effect" >
       <section class="container hero-container">
         <div class="row hero-content-wrapper">
           <article class="col-12">
@@ -15,6 +15,7 @@
             <img
               class="hero-illustration"
               src="@/assets/img/digital-nomad-illustration.svg"
+              data-scroll data-scroll-speed="-0.50" data-scroll-delay="0.05"
             />
           </article>
         </div>
@@ -22,7 +23,7 @@
     </div>
 
     <!-- About Hero SVG separator -->
-    <svg class="about-hero-svg" viewBox="0 0 3083 1176" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <svg class="about-hero-svg" viewBox="0 0 3083 1176" fill="none" xmlns="http://www.w3.org/2000/svg" data-scroll>
       <g filter="url(#filter0_dd)">
         <path d="M1285.99 983.356C883.852 944.438 644 632 571.086 510.504C384 316 268 164 240 0V1176H900.616H2609.71C2878.73 989.194 3319.04 576.275 2928.07 419.047C2439.36 222.511 2595.75 574.718 2472.87 747.903C2349.99 921.088 1788.67 1032 1285.99 983.356Z" fill="white"/>
       </g>
@@ -43,18 +44,20 @@
     </svg>
 
     <!-- Techs content -->
-    <techs-grid />
+    <div>
+      <techs-grid />
+    </div>
 
     <!-- Featured Services -->
-    <section class="container is-white">
+    <section class="container is-white" data-scroll>
       <div class="row">
         <article class="col-12 featured-services">
-          <div class="featured-img">
+          <div class="featured-img" data-scroll data-scroll-speed="1" data-scroll-delay="0">
             <div>
               <img src="@/assets/img/webapp-development.jpg" alt="Custom Web Apps Development" />
             </div>
           </div>
-          <div class="featured-content">
+          <div class="featured-content" data-scroll data-scroll-speed="-1" data-scroll-delay="0.45">
             <h2>Custom <strong>Web Apps</strong> Development - <br> Tailored to your needs</h2>
             <p>Having trouble finding a "Ready-Made" solution out there that fits your needs? Tired of paying monthly fees for software that tries to do more than you really need. That's where a Custom Web App comes to the rescue. Built exactly for what it should do. Transform & Automate any repetitive Business process and enjoy the productivity boost!</p>
             <router-link to="/projects" class="text-link">See projects <svg width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M508.875 248.458l-160-160c-4.167-4.167-10.917-4.167-15.083 0-4.167 4.167-4.167 10.917 0 15.083l141.792 141.792H10.667C4.771 245.333 0 250.104 0 256s4.771 10.667 10.667 10.667h464.917L333.792 408.458c-4.167 4.167-4.167 10.917 0 15.083a10.634 10.634 0 0 0 7.542 3.125c2.729 0 5.458-1.042 7.542-3.125l160-160c4.166-4.166 4.166-10.916-.001-15.083z"/></svg></router-link>
@@ -63,12 +66,12 @@
       </div>
       <div class="row">
         <article class="col-12 featured-services is-reverse">
-          <div class="featured-img">
+          <div class="featured-img" data-scroll data-scroll-speed="-1" data-scroll-delay="0">
             <div>
               <img src="@/assets/img/website-development.jpg" alt="Custom Websites Development" />
             </div>
           </div>
-          <div class="featured-content">
+          <div class="featured-content" data-scroll data-scroll-speed="1" data-scroll-delay="0.45">
             <h2>Custom <strong>Websites</strong> Development - <br> Tailored to your needs</h2>
             <p>Sure you can use a <span class="strike">Wix</span>, <span class="strike">Wordpress</span> or <small>(insert any comparable)</small>. But if you really want to stand out, be accessible, performant and SEO friendly, let me built something completely custom for you. I start by really understanding your brand and core values to create something that is unique and beautiful.</p>
             <router-link to="/projects" class="text-link is-alternate">See projects <svg width="14" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path d="M508.875 248.458l-160-160c-4.167-4.167-10.917-4.167-15.083 0-4.167 4.167-4.167 10.917 0 15.083l141.792 141.792H10.667C4.771 245.333 0 250.104 0 256s4.771 10.667 10.667 10.667h464.917L333.792 408.458c-4.167 4.167-4.167 10.917 0 15.083a10.634 10.634 0 0 0 7.542 3.125c2.729 0 5.458-1.042 7.542-3.125l160-160c4.166-4.166 4.166-10.916-.001-15.083z"/></svg></router-link>
@@ -78,7 +81,7 @@
     </section>
 
     <!-- Featured Services -->
-    <section class="container featured-item-container is-dark">
+    <section class="container featured-item-container is-dark" data-scroll data-scroll-speed="2" >
       <div class="row">
         <article class="col-12 featured-item">
           <div class="featured-img">
@@ -97,7 +100,7 @@
     </section>
 
     <!-- Contact CTA -->
-    <section class="container block-cta">
+    <section class="container block-cta" data-scroll data-scroll-speed="2">
       <div class="row">
         <div class="col-12">
           <a @click.prevent="openContactForm" class="button" href="#" title="Contact Me">Contact Me</a>
@@ -106,7 +109,7 @@
     </section>
 
     <!-- Footer -->
-    <Footer />
+    <Footer data-scroll data-scroll-speed="-1" />
   </div>
 </template>
 
@@ -115,6 +118,8 @@ import { mapState } from 'vuex'
 import NavBar from '@/components/NavBar'
 import TechsGrid from '@/components/TechsGrid'
 import Footer from '@/components/Footer'
+
+import LocomotiveScroll from 'locomotive-scroll'
 
 export default {
   head(){
@@ -164,6 +169,16 @@ export default {
     openContactForm() {
       this.$eventHub.$emit('open-contact-form')
     }
+  },
+  mounted() {
+    setTimeout(() => {
+      const scroll = new LocomotiveScroll({
+        el: document.querySelector('[data-scroll-container]'),
+        smooth: true
+      })
+
+      console.log(scroll)
+    }, 500)
   }
 }
 </script>

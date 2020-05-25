@@ -3,10 +3,7 @@
 
     <!-- Main App Content -->
     <main role="main">
-      <transition-group
-        name="fade"
-        mode="out-in"
-      >
+
         <router-view key="main" />
 
         <!-- Overlays SVG for Home page -->
@@ -21,7 +18,7 @@
           </svg>
 
         </div>
-      </transition-group>
+
     </main>
 
     <!-- Contact Form Component -->
@@ -41,6 +38,8 @@
       :refreshing-app="refreshingApp"
       @refresh="serviceWorkerSkipWaiting"
     ></new-content-available-toastr>
+
+    <div class="c-scrollbar"></div>
   </div>
 </template>
 <script>
