@@ -9,9 +9,9 @@
       <section class="container hero-container">
         <div class="row hero-content-wrapper">
           <article class="col-12">
-            <h2 class="small-title">Digital&nbsp;Nomad&nbsp;👨‍💻&nbsp;Freelancer</h2>
-            <h1 class="big-title">Web Apps & Websites Developer</h1>
-            <p class="regular-text">With more than 10 years in Web developement, I can safely say that my work is a passion. <br> My creations are 100% custom, accessible, performant & scalable 🚀</p>
+            <h2 class="small-title" data-scroll data-scroll-speed="1.5" data-scroll-position="top">Digital&nbsp;Nomad&nbsp;👨‍💻&nbsp;Freelancer</h2>
+            <h1 class="big-title" data-scroll data-scroll-speed="1" data-scroll-position="top">Web Apps & Websites Developer</h1>
+            <p class="regular-text" data-scroll data-scroll-speed="0.5" data-scroll-position="top">With more than 10 years in Web developement, I can safely say that my work is a passion. <br> My creations are 100% custom, accessible, performant & scalable 🚀</p>
             <img
               class="hero-illustration"
               src="@/assets/img/digital-nomad-illustration.svg"
