@@ -98,6 +98,9 @@ export default {
 
   z-index: 9;
 
+  perspective: 600px;
+  -webkit-perspective: 600px;
+
   .content-box {
     position: relative;
     float: none;
@@ -108,6 +111,14 @@ export default {
     box-shadow: 0 0 45px -15px rgba(0,0,0,0.20);
     background: #fff;
     border-radius: 14px;
+
+    opacity: 0;
+    transform-origin: center top;
+    transform-style: preserve-3d;
+    transform: translateY(100%) rotateX(-80deg);
+    transition: opacity 0s cubic-bezier(.215,.61,.355,1),transform 0s cubic-bezier(.215,.61,.355,1);
+    transition-duration: 0.8s;
+    transition-delay: 1.5s;
 
     @media only screen and (min-width: $breakpoint-large) {
       width: 100%;
@@ -184,6 +195,13 @@ export default {
         bottom: 2rem;
       }
     }
+  }
+}
+
+.is-loaded {
+  .page-wrapper .content-box {
+    opacity: 1;
+    transform: none;
   }
 }
 </style>
